@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>我的愿望</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/mywish.js"></script>
+    <style>
+    .wish{
+        height: 650px;
+        width:53%;
+        background: url(img/8.jpg) no-repeat;
+        background-position: -230px -255px;
+        position: absolute;
+        top: 240px;
+        min-width: 850px;
+    }
+    #text1{
+        width:70%;
+        height: 410px;
+        background: #F2F2F2;
+        position: absolute;
+        top:150px;
+        left: 20%;
+        border:none;
+        resize : none;
+        outline: none;
+        opacity: 0.5;
+        font-size: 25px;
+
+    }
+    #btn2{
+        width: 100px;
+        height: 40px;
+        position: absolute;
+        top: 580px;
+        left: 47%;
+        background: #CB1F2B;
+        border: none;
+        color: #fff;
+        outline: none;
+        cursor:pointer;
+    }
+    #rightT{
+        height: 150px;
+        width: 20%;
+        position: absolute;
+        right: 0;
+        top: 150px;
+        background: #730717;
+    }
+    #rightB{
+        height: 597px;
+        width: 20%;
+        position: absolute;
+        right: 0;
+        top: 300px;
+        background: #fff;
+        opacity: 0.7;
+    }
+    .pic{
+        width: 170px;
+        margin: 0 auto;
+        margin-top:30px;
+        position: relative;
+    }
+    .direction{
+        position: absolute;
+        top: 40px;
+        left:60px;
+        height: 50px;
+        width:100px;
+        font-size: 25px;
+        color: #fff;
+    }
+    .block{
+        width: 320px;
+        height: 101px;
+        font-size: 20px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        line-height: 101px;
+    }
+    </style>
+</head>
+<body>
+<div id="out1" class="out1">
+    <div class="point1">
+        <div class="pop1">
+            <img id="surprise" src="img/4.jpg" alt="">
+            <input id="off" type="button" value="关闭"/>
+        </div>
+    </div>
+</div>
+<div class="big">
+    <div class="top">
+    </div>
+    <div class="nav">
+        <div class="navl">
+            <ul>
+                <li class="first">
+                    <a href="./index.html">首页</a>
+                </li>
+                <li>
+                    <a href="./mywish.html">我的愿望</a>
+                </li>
+                <li>
+                    <a href="./her.html">她（他）的愿望</a>
+                </li>
+                <li>
+                    <a id="S" href="#">别点我</a>
+                </li>
+                <div class="last">
+                        <img src="img/5.svg" alt="">
+                        <a id="login" href="#">
+                            注销
+                        </a>
+                </div>
+            </ul>
+           
+        </div>
+    </div>
+    <div class="content">
+        <div class="wish">
+            <textarea name="" id="text1" cols="30" rows="10"></textarea>
+            <input id="btn2" type="button" value="finish"/>
+        </div>
+        <div class="right">
+            <div id="rightT">
+                <div class="pic">
+                    <div class="direction">
+                        我的愿望
+                    </div>
+                    <img src="img/2.jpg" alt="">
+                </div>
+            </div>
+            <div id="rightB">
+                <div id="inn"></div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
